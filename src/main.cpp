@@ -56,7 +56,7 @@ int main(int argc, char *argv[]) {
 try {
 
   //const char input_file[100] = "/gpfs/group/t2k/beam/work/yasuken/Latest/testbench/data/monte-carlo/outputroot_pm.root";
-  const char input_file[100] = "/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/output_mc/uwg/uwg_mc_numu_run9.root";
+  const char input_file[100] = "/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/output_mc/uwg/uwg_mc_numu_run1.root";
   B2Reader reader(input_file);
   Int_t ievent=0;
   while (reader.ReadNextSpill() > 0) {
