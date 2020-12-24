@@ -1,0 +1,32 @@
+//                                                                                                                                                                                 
+// Created by Giorgio Pintaudi on 8/5/20.
+// Developed by Kenji Yasutome                                                                                                                                               
+//
+
+#ifndef SIGNALSTUDY_ENUM_HH
+#define SIGNALSTUDY_ENUM_HH
+
+#include <unordered_map>
+#include <string>
+#include <cstddef>
+#include "B2Const.hh"
+
+struct TopologyClassHash {
+  template<typename T>
+  std::size_t operator()(T t) const {
+    return static_cast<std::size_t>(t);
+  }
+};
+
+enum Topology {
+  kccinc = 0,
+  kcc0pi = 1,
+  kcc1pi = 2,
+  kccother = 3,
+  knc = 4,
+
+};
+
+
+const extern std::unordered_map<Topology, std::string, TopologyClassHash> Topology_NAMES;
+#endif 

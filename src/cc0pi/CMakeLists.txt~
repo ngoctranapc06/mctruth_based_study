@@ -1,0 +1,8 @@
+set(VERTEX_SOURCES
+	Test.hpp
+	Test.cpp
+        )
+
+target_sources(SignalDef PRIVATE ${VERTEX_SOURCES})
+
+target_include_directories(SignalDef PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})

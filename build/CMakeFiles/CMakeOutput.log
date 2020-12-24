@@ -1,0 +1,373 @@
+The system is: Linux - 3.10.0-1062.el7.x86_64 - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/gcc-9.3.0/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/3.15.0/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_54c36/fast && /usr/bin/gmake -f CMakeFiles/cmTC_54c36.dir/build.make CMakeFiles/cmTC_54c36.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_54c36.dir/testCXXCompiler.cxx.o
+/opt/gcc-9.3.0/bin/c++     -o CMakeFiles/cmTC_54c36.dir/testCXXCompiler.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_54c36
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54c36.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++       CMakeFiles/cmTC_54c36.dir/testCXXCompiler.cxx.o  -o cmTC_54c36 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_d5812/fast && /usr/bin/gmake -f CMakeFiles/cmTC_d5812.dir/build.make CMakeFiles/cmTC_d5812.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o
+/opt/gcc-9.3.0/bin/c++    -v -o CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o -c /gpfs/home/t2k/tvngoc/cmake-3.15.0/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/opt/gcc-9.3.0/bin/c++
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --disable-multilib --disable-bootstrap --enable-languages=c,c++,fortran --prefix=/opt/gcc-9.3.0 --with-gmp=/opt/gnu-libs --with-mpc=/opt/gnu-libs --with-mpfr=/opt/gnu-libs --with-isl=/opt/gnu-libs
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /gpfs/home/t2k/tvngoc/cmake-3.15.0/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccrZqAoQ.s
+GNU C++14 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-39), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0
+ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu
+ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward
+ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include
+ /usr/local/include
+ /opt/gcc-9.3.0/include
+ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed
+ /usr/include
+End of search list.
+GNU C++14 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-39), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 29a065e5a7574124513c024e1d8f39fe
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrZqAoQ.s
+GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-43.base.el7
+COMPILER_PATH=/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_d5812
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5812.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++      -v CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d5812 
+Using built-in specs.
+COLLECT_GCC=/opt/gcc-9.3.0/bin/c++
+COLLECT_LTO_WRAPPER=/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper
+Target: x86_64-pc-linux-gnu
+Configured with: ../configure --disable-multilib --disable-bootstrap --enable-languages=c,c++,fortran --prefix=/opt/gcc-9.3.0 --with-gmp=/opt/gnu-libs --with-mpc=/opt/gnu-libs --with-mpfr=/opt/gnu-libs --with-isl=/opt/gnu-libs
+Thread model: posix
+gcc version 9.3.0 (GCC) 
+COMPILER_PATH=/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/
+LIBRARY_PATH=/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5812' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccScdorU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d5812 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5812' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0]
+    add: [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu]
+    add: [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward]
+    add: [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+    add: [/usr/local/include]
+    add: [/opt/gcc-9.3.0/include]
+    add: [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0] ==> [/opt/gcc-9.3.0/include/c++/9.3.0]
+  collapse include dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu] ==> [/opt/gcc-9.3.0/include/c++/9.3.0/x86_64-pc-linux-gnu]
+  collapse include dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward] ==> [/opt/gcc-9.3.0/include/c++/9.3.0/backward]
+  collapse include dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include] ==> [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/opt/gcc-9.3.0/include] ==> [/opt/gcc-9.3.0/include]
+  collapse include dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed] ==> [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/opt/gcc-9.3.0/include/c++/9.3.0;/opt/gcc-9.3.0/include/c++/9.3.0/x86_64-pc-linux-gnu;/opt/gcc-9.3.0/include/c++/9.3.0/backward;/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include;/usr/local/include;/opt/gcc-9.3.0/include;/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake cmTC_d5812/fast && /usr/bin/gmake -f CMakeFiles/cmTC_d5812.dir/build.make CMakeFiles/cmTC_d5812.dir/build]
+  ignore line: [gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/opt/gcc-9.3.0/bin/c++    -v -o CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o -c /gpfs/home/t2k/tvngoc/cmake-3.15.0/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc-9.3.0/bin/c++]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --disable-multilib --disable-bootstrap --enable-languages=c,c++,fortran --prefix=/opt/gcc-9.3.0 --with-gmp=/opt/gnu-libs --with-mpc=/opt/gnu-libs --with-mpfr=/opt/gnu-libs --with-isl=/opt/gnu-libs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/cc1plus -quiet -v -D_GNU_SOURCE /gpfs/home/t2k/tvngoc/cmake-3.15.0/share/cmake-3.15/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccrZqAoQ.s]
+  ignore line: [GNU C++14 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-39), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../x86_64-pc-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0]
+  ignore line: [ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/x86_64-pc-linux-gnu]
+  ignore line: [ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../include/c++/9.3.0/backward]
+  ignore line: [ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /opt/gcc-9.3.0/include]
+  ignore line: [ /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/include-fixed]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 9.3.0 (x86_64-pc-linux-gnu)]
+  ignore line: [	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-39), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 29a065e5a7574124513c024e1d8f39fe]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccrZqAoQ.s]
+  ignore line: [GNU assembler version 2.27 (x86_64-redhat-linux) using BFD version version 2.27-43.base.el7]
+  ignore line: [COMPILER_PATH=/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_d5812]
+  ignore line: [/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5812.dir/link.txt --verbose=1]
+  ignore line: [/opt/gcc-9.3.0/bin/c++      -v CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d5812 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/opt/gcc-9.3.0/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper]
+  ignore line: [Target: x86_64-pc-linux-gnu]
+  ignore line: [Configured with: ../configure --disable-multilib --disable-bootstrap --enable-languages=c,c++,fortran --prefix=/opt/gcc-9.3.0 --with-gmp=/opt/gnu-libs --with-mpc=/opt/gnu-libs --with-mpfr=/opt/gnu-libs --with-isl=/opt/gnu-libs]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 9.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d5812' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2 -plugin /opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so -plugin-opt=/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccScdorU.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_d5812 /lib/../lib64/crt1.o /lib/../lib64/crti.o /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o -L/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0 -L/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../.. CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o /lib/../lib64/crtn.o]
+    arg [/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/opt/gcc-9.3.0/libexec/gcc/x86_64-pc-linux-gnu/9.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccScdorU.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_d5812] ==> ignore
+    arg [/lib/../lib64/crt1.o] ==> ignore
+    arg [/lib/../lib64/crti.o] ==> ignore
+    arg [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtbegin.o] ==> ignore
+    arg [-L/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+    arg [-L/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..]
+    arg [CMakeFiles/cmTC_d5812.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/crtend.o] ==> ignore
+    arg [/lib/../lib64/crtn.o] ==> ignore
+  collapse library dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0] ==> [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0]
+  collapse library dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../../../lib64] ==> [/opt/gcc-9.3.0/lib64]
+  collapse library dir [/lib/../lib64] ==> [/lib64]
+  collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse library dir [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0/../../..] ==> [/opt/gcc-9.3.0/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/opt/gcc-9.3.0/lib/gcc/x86_64-pc-linux-gnu/9.3.0;/opt/gcc-9.3.0/lib64;/lib64;/usr/lib64;/opt/gcc-9.3.0/lib]
+  implicit fwks: []
+
+
+Determining if the Q_WS_X11 exist passed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_46435/fast && /usr/bin/gmake -f CMakeFiles/cmTC_46435.dir/build.make CMakeFiles/cmTC_46435.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_46435.dir/CheckSymbolExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread    -o CMakeFiles/cmTC_46435.dir/CheckSymbolExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_46435
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46435.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread     CMakeFiles/cmTC_46435.dir/CheckSymbolExists.cxx.o  -o cmTC_46435 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+File /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_X11
+  return ((int*)(&Q_WS_X11))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_418b6/fast && /usr/bin/gmake -f CMakeFiles/cmTC_418b6.dir/build.make CMakeFiles/cmTC_418b6.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_418b6.dir/CheckFunctionExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTC_418b6.dir/CheckFunctionExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_418b6
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_418b6.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTC_418b6.dir/CheckFunctionExists.cxx.o  -o cmTC_418b6 /usr/lib64/libX11.so /usr/lib64/libXext.so 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_07e4f/fast && /usr/bin/gmake -f CMakeFiles/cmTC_07e4f.dir/build.make CMakeFiles/cmTC_07e4f.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_07e4f.dir/CheckFunctionExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTC_07e4f.dir/CheckFunctionExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_07e4f
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07e4f.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTC_07e4f.dir/CheckFunctionExists.cxx.o  -o cmTC_07e4f 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_2d9a0/fast && /usr/bin/gmake -f CMakeFiles/cmTC_2d9a0.dir/build.make CMakeFiles/cmTC_2d9a0.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2d9a0.dir/CheckFunctionExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTC_2d9a0.dir/CheckFunctionExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_2d9a0
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d9a0.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTC_2d9a0.dir/CheckFunctionExists.cxx.o  -o cmTC_2d9a0 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_e31bf/fast && /usr/bin/gmake -f CMakeFiles/cmTC_e31bf.dir/build.make CMakeFiles/cmTC_e31bf.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e31bf.dir/CheckFunctionExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTC_e31bf.dir/CheckFunctionExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_e31bf
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e31bf.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTC_e31bf.dir/CheckFunctionExists.cxx.o  -o cmTC_e31bf 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_36381/fast && /usr/bin/gmake -f CMakeFiles/cmTC_36381.dir/build.make CMakeFiles/cmTC_36381.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_36381.dir/CheckFunctionExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTC_36381.dir/CheckFunctionExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CheckFunctionExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_36381
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36381.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTC_36381.dir/CheckFunctionExists.cxx.o  -o cmTC_36381 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_c4b52/fast && /usr/bin/gmake -f CMakeFiles/cmTC_c4b52.dir/build.make CMakeFiles/cmTC_c4b52.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4b52.dir/CheckFunctionExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTC_c4b52.dir/CheckFunctionExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CheckLibraryExists/CheckFunctionExists.cxx
+Linking CXX executable cmTC_c4b52
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4b52.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTC_c4b52.dir/CheckFunctionExists.cxx.o  -o cmTC_c4b52 -lICE 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_322cc/fast && /usr/bin/gmake -f CMakeFiles/cmTC_322cc.dir/build.make CMakeFiles/cmTC_322cc.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_322cc.dir/CheckIncludeFile.cxx.o
+/opt/gcc-9.3.0/bin/c++    -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -std=c++11   -std=c++11 -pipe -fsigned-char -pthread    -o CMakeFiles/cmTC_322cc.dir/CheckIncludeFile.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_322cc
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_322cc.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++  -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -std=c++11   -std=c++11 -pipe -fsigned-char -pthread      CMakeFiles/cmTC_322cc.dir/CheckIncludeFile.cxx.o  -o cmTC_322cc 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C++ SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_9e238/fast && /usr/bin/gmake -f CMakeFiles/cmTC_9e238.dir/build.make CMakeFiles/cmTC_9e238.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9e238.dir/src.cxx.o
+/opt/gcc-9.3.0/bin/c++    -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -std=c++11   -std=c++11 -pipe -fsigned-char -pthread -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_9e238.dir/src.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_9e238
+/gpfs/home/t2k/tvngoc/cmake-3.15.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e238.dir/link.txt --verbose=1
+/opt/gcc-9.3.0/bin/c++  -W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -std=c++11   -std=c++11 -pipe -fsigned-char -pthread -DCMAKE_HAVE_LIBC_PTHREAD     CMakeFiles/cmTC_9e238.dir/src.cxx.o  -o cmTC_9e238 
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

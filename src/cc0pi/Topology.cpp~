@@ -1,0 +1,15 @@
+//
+// Developed by Kenji Yasutome\
+//
+
+#include "Topology.hpp"
+#include <stdexcept>
+#include <unordered_map>
+#include <string>
+
+const std::unordered_map<Topology, std::string, TopologyClassHash> Topology_NAMES = {
+  {Topology::kccinc,      "CC INCLUSIVE"},
+  {Topology::kcc0pi,      "CC0pi"},
+  {Topology::kcc1pi,   "CC1pi"},
+  {Topology::knc,      "NC"},
+};

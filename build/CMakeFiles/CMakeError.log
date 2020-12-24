@@ -1,0 +1,93 @@
+Determining if the Q_WS_WIN exist failed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_bfb48/fast && /usr/bin/gmake -f CMakeFiles/cmTC_bfb48.dir/build.make CMakeFiles/cmTC_bfb48.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bfb48.dir/CheckSymbolExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread    -o CMakeFiles/cmTC_bfb48.dir/CheckSymbolExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+    8 |   return ((int*)(&Q_WS_WIN))[argc];
+      |                   ^~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_bfb48.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_bfb48/fast] Error 2
+
+
+File /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_WIN
+  return ((int*)(&Q_WS_WIN))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_QWS exist failed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_35266/fast && /usr/bin/gmake -f CMakeFiles/cmTC_35266.dir/build.make CMakeFiles/cmTC_35266.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_35266.dir/CheckSymbolExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread    -o CMakeFiles/cmTC_35266.dir/CheckSymbolExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+    8 |   return ((int*)(&Q_WS_QWS))[argc];
+      |                   ^~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_35266.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_35266/fast] Error 2
+
+
+File /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_QWS
+  return ((int*)(&Q_WS_QWS))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the Q_WS_MAC exist failed with the following output:
+Change Dir: /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake cmTC_b7c84/fast && /usr/bin/gmake -f CMakeFiles/cmTC_b7c84.dir/build.make CMakeFiles/cmTC_b7c84.dir/build
+gmake[1]: Entering directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b7c84.dir/CheckSymbolExists.cxx.o
+/opt/gcc-9.3.0/bin/c++    -std=c++11 -pipe -fsigned-char -pthread    -o CMakeFiles/cmTC_b7c84.dir/CheckSymbolExists.cxx.o -c /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+    8 |   return ((int*)(&Q_WS_MAC))[argc];
+      |                   ^~~~~~~~
+gmake[1]: *** [CMakeFiles/cmTC_b7c84.dir/CheckSymbolExists.cxx.o] Error 1
+gmake[1]: Leaving directory `/gpfs/group/t2k/beam/work/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp'
+gmake: *** [cmTC_b7c84/fast] Error 2
+
+
+File /home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/build/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+#include <QtCore/qglobal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef Q_WS_MAC
+  return ((int*)(&Q_WS_MAC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
