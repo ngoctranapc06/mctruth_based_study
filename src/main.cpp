@@ -27,10 +27,43 @@
 #include "TTree.h"
 #include "TFile.h"
 
+// print_help
+// prints an help message with all the arguments taken by the program
+void print_help(const char * program_name) {
+  std::cout << 
+      "  -h         : help\n"
+      "  -i (char*) : input ROOT file (mandatory)\n"
+      "  -o (char*) : output txt file (default = same as input)\n"
+      exit(0);
+}
+
 int main(int argc, char *argv[]) {
 
+bool rename = false;
+bool renamef = false;
+
+int opt;
+char inputfile[300];
+char outputfile[300];
+
+while ((opt = getopt(argc, argv, "i:o")) != -1){
+  switch(opt){
+    case 'i':
+    sprintf(inputfile, "%s", optarg);
+    rename = true;
+    break;
+    case 'o':
+    sprintf(outputfile, "%s", optarg);
+    renamef = true;
+    break;
+    case 'h':
+    default:
+    print_help(argv[0]);
+    break;
+  }
+}
   //TString outputfile = "/gpfs/group/t2k/beam/work/yasuken/Latest/testbench/signalstudy/data/test.root";
-  TString outputfile = "/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/test.root";
+  //TString outputfile = "/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/mctruth_based_study/test.root";
   TFile* ofile = new TFile(outputfile, "RECREATE");
   TTree* tree = new TTree("tree", "tree");
   Int_t event;
@@ -55,9 +88,14 @@ int main(int argc, char *argv[]) {
   
 try {
 
-  //const char input_file[100] = "/gpfs/group/t2k/beam/work/yasuken/Latest/testbench/data/monte-carlo/outputroot_pm.root";
-  const char input_file[100] = "/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/output_mc/uwg/uwg_mc_numu_run1.root";
-  B2Reader reader(input_file);
+  //const char inputfile[100] = "/gpfs/group/t2k/beam/work/yasuken/Latest/testbench/data/monte-carlo/outputroot_pm.root";
+  //const char inputfile[100] = "/home/t2k/tvngoc/gpfs/tvngoc/wagascimc/output_mc/uwg/uwg_mc_numu_run1.root";
+  B2Reader reader(inputfile);
+  if((!rename)||(gSystem->GetPathInfo(inputfile,fs))){
+    cout<<"Cannot open file "<<inputfile<<endl;
+    exit(1);
+  }
+
   Int_t ievent=0;
   while (reader.ReadNextSpill() > 0) {
 
